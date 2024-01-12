@@ -1,0 +1,15 @@
+# Buscando el hash del archivo alterado de la empresa
+
+1- Lo primero para abarcar el ejercicio fue el tener que investigar la manera de como averiguar cual archivo fue alterado.
+2- Despue de investigar y ver uno que otro video informativo pues se llego a la conconclucion de realizar una verificacion del "HASH"
+3- esto se realiza con el comando "MD5SUM"
+4- Luego abri la consola en la direccion donde tenia el repositorio con los archivos.
+5- Se realizo el analisis del HASH con el codigo anteriormente: "MD5SUM"
+6- Despues de hacer todo las verificaciones; el archivo alterado fue "log.txt" en la parte de abajo veran la comparacion del hash viejo con el actual
+
+90965b0eb20e68b7d0b59accd2a3b4fd  copia.sh
+0b29406e348cd5f17c2fd7b47b1012f9  log.txt ----------- f2b0428b975452afbc641e46a042231b  log.txt
+6d5e43a730490d75968279b6adbd79ec  pass.txt
+129ea0c67567301df1e1088c9069b946  plan-A.txt
+4e9878b1c28daf4305f17af5537f062a  plan-B.txt
+66bb9ec43660194bc066bd8b4d35b151  script.py
